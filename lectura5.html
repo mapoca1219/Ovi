@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio OVI</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="IMG/logo.jpg" alt="logo de la UNAD">
+        <h1> Diseño y programación de sitios Web</h1>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="boton"><a href="#">Presentacion</a>
+                <div class="listaDesplegable">
+                    <a href="presentacion.html">Sobre El Curso</a>
+                </div>
+                </li>
+            <li class="boton"><a href="#">Lecturas</a>
+                <div class="listaDesplegable">
+                    <a href="lectura1.html">Introducción</a>
+                    <a href="lectura2.html">¿Qué es HTML?</a>
+                    <a href="lectura3.html">CSS3</a>
+                    <a href="lectura4.html">Formularios</a>
+                    <a href="lectura5.html">Fundamentos de PHP</a>
+                </div>
+                </li>
+            <li class="boton"><a href="#">Multimedia</a>
+                <div class="listaDesplegable">
+                    <a href="multimedia1.html">Que es HTML y como Funciona (audio)</a>
+                    <a href="multimedia2.html">Como hacer formulario de contacto con HTML5 - CSS3</a>
+                </div>
+                </li>
+            <li class="boton"><a href="#">Actividades</a>
+                <div class="listaDesplegable">
+                    <a href="actividad1.html">Crear un formulario con HTML</a>
+                    <a href="actividad2.html">Crear un reproductor de video</a>
+                    <a href="actividad3.html">Ejercicio de PHP</a>
+                </div>
+                </li>
+            <li class="boton"><a href="autores.html">Autores</a></li>
+        </ul>
+    </nav>
+    <section class="contenedor">
+        <h1> ¿Qué es PHP?</h1>
+        <p>Hypertext Preprocessor</p>
+        <section class="central">
+            <article>
+                <p>Es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
+                  <p>Por ejemplo:</p>
+                  <pre><code>
+                    &lt;!DOCTYPE HTML&gt;
+                    &lt;html&gt;
+                      &lt;head&gt;
+                        &lt;title&gt;Sample text here...&lt;/title&gt;
+                      &lt;/head&gt;
+                      &lt;body&gt;
+                        &lt;?php
+                          echo "¡Hola, soy un script de PHP!";
+                        ?&gt;
+                      &lt;/body&gt;
+                    &lt;/html&gt;
+                  </code></pre>
+                  <p>Lo que distingue a PHP de algo del lado del cliente como Javascript es que el código es ejecutado en el servidor, generando HTML y enviándolo al cliente. El cliente recibirá el resultado de ejecutar el script, aunque no se sabrá el código subyacente que era. El servidor web puede ser configurado incluso para que procese todos los ficheros HTML con PHP,
+                     por lo que no hay manera de que los usuarios puedan saber qué se tiene debajo de la manga.</p>
+                  <p>Para poder ejecutar los scripts de PHP se necesita, en primer lugar, un servidor web que sea capaz de interpretar este lenguaje de programación. Para ello, tiene que complementarse con un intérprete PHP. Se trata, en este sentido, de un componente de software que puede identificar los pasajes de un archivo que contienen código PHP. En principio,
+                     PHP se puede ejecutar en cualquier servidor web y el intérprete forma parte del paquete de descarga de PHP.
+                      La versión actual puede descargarse de manera gratuita desde la página web oficial del proyecto <a href="https://www.php.net/downloads.php">php.net</a>.</p>
+              <div class="col-sm-12 col-md-6 py-2 text-center">
+                  <img src="IMG/php.png" width="300" height="300" alt="Logo PHP" class="img-thumbnail">
+              </div>
+              <div class="py-5">
+                  <h5>Referencias bibliográficas.</h5>
+                  <hr>
+                  <p>¿Qué es PHP?. (s.f.). En PHP. Recuperado el 22 de abril de 2019  de <a href="https://www.php.net/manual/es/intro-whatis.php">https://www.php.net/manual/es/intro-whatis.php</a></p>
+                  <p>¿Qué es PHP? Tutorial para principiantes. (28-08-2017). En ionos. Recuperado el 22 de abril de 2019  de <a href="https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/tutorial-de-php-fundamentos-basicos-para-principiantes/">https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/tutorial-de-php-fundamentos-basicos-para-principiantes/</a></p>
+              </div>
+            </article>
+        </section>
+        <aside>
+            <h4> Sesion de twitter</h4>
+            <a class="twitter-timeline" data-height="450" data-theme="dark" href="https://twitter.com/PGN_COL?ref_src=twsrc%5Etfw">Tweets by PGN_COL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+
+    </section>
+    <footer>
+         <img src="IMG/logo1.png" width="1100" height="200" alt="Logo unad">
+        <p>  Pagina diseñada</p>
+        <h6> Por grupo 301122_38 CEBTI 8 abril 2020  </h6>
+    </footer>
+</body>
+</html>
