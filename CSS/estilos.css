@@ -29,6 +29,12 @@ header{
     vertical-align: top;
     width: 70%;
 }
+.central .intro h3 h2{
+    text-align: center;
+}
+.central .intro .py-5 h5{
+    text-align: center;
+}
 .sesion{
   background-color:  #43C7F4;  
 }
